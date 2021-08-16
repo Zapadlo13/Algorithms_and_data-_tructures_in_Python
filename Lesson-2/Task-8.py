@@ -7,9 +7,9 @@ num2 = input('Введетие цифры для посика:')
 count = 0
 while True:
 
-    if num1.find(num2) >=0:
+    if num1.find(num2) >= 0:
         count += 1
-        num1 = num1[num1.find(num2)+len(num2):]
+        num1 = num1[num1.find(num2) + len(num2):]
     else:
         break
 print(f'Цифра {num2} встречавется {count} раз.')
